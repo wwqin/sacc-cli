@@ -1,13 +1,14 @@
 {
-  "name": "sacc",
+  "name": "sacc-cli",
   "version": "1.0.0",
   "description": "SACC-Tools",
   "main": "index.js",
+  "license": "MIT",
+  "repository":"https://github.com/wwqin/sacc-cli.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Wwqin",
   "bin": {
     "sacc-cli": "./bin/sacc.js"
   },
@@ -16,6 +17,9 @@
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
     "commander": "^2.15.1",
+    "exec-npm": "^2.1.0",
+    "exec-npm-install": "^1.0.4",
+    "inquirer": "^6.5.1",
     "ora": "^2.0.0"
   }
 }

@@ -1,8 +1,50 @@
 {"tpl":{
   "react":{
     "tplName":"react",
-    "url":"https://github.com/wwqin/SACC-Tool.git",
+    "url":"https://github.com/wwqin/react-template.git",
     "branch":"master",
-    "description":"123"
+    "description":"react+react-route",
+    "options":{
+      "modules": [
+        "babel-core@6.26.0",
+        "babel-loader@7.1.2",
+        "babel-preset-env@1.6.1",
+        "babel-preset-react@6.24.1",
+        "css-loader@0.28.8",
+        "extract-text-webpack-plugin@3.0.2",
+        "file-loader@1.1.6",
+        "html-webpack-plugin@2.30.1",
+        "style-loader@0.19.1",
+        "url-loader@0.6.2",
+        "webpack@3.10.0",
+        "webpack-dev-server@2.9.7",
+        "axios@0.18.0",
+        "babel-preset-es2015@6.24.1",
+        "import@0.0.6",
+        "react@16.2.0",
+        "react-dom@16.2.0",
+        "react-router@5.0.0",
+        "react-router-dom@5.0.1"
+      ],
+      "prefix": "/"
+    }
+  },
+  "react+redux":{
+    "tplName":"react+redux",
+    "url":"https://github.com/wwqin/react-redux-template.git",
+    "branch":"master",
+    "description":"react+redux+react-route"
+  },
+  "react+next":{
+    "tplName":"react+next",
+    "url":"https://github.com/wwqin/next-template.git",
+    "branch":"master",
+    "description":"react+next+redux+redux-thunk"
+  },
+  "vue":{
+    "tplName":"vue",
+    "url":"https://github.com/BinghuiXie/saccVueTemplate.git",
+    "branch":"master",
+    "description":"vue"
   }
 }}
